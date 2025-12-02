@@ -3,11 +3,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<SplitPane dividerPositions="0.5" prefHeight="351.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.mw.aoc25.ui.MainView">
+<SplitPane dividerPositions="0.5" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.mw.aoc25.ui.MainView">
    <items>
-      <Accordion expandedPane="$dayPane" maxWidth="188.0" prefHeight="349.0" prefWidth="188.0">
+      <Accordion expandedPane="$dayPane" maxWidth="350.0" prefHeight="349.0" prefWidth="188.0">
         <panes>
-          <TitledPane fx:id="dayPane" animated="false" text="Advent of Code Day" />
+          <TitledPane fx:id="dayPane" text="Advent of Code Day" />
         </panes>
       </Accordion>
       <AnchorPane fx:id="mainPane" />

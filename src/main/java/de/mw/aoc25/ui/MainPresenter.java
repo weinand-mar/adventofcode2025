@@ -1,5 +1,7 @@
 package de.mw.aoc25.ui;
 
+import atlantafx.base.theme.PrimerDark;
+import atlantafx.base.theme.PrimerLight;
 import de.mw.aoc25.Launcher;
 import de.mw.aoc25.ui.day.DayPresenter;
 import de.mw.aoc25.ui.daylist.DayListPresenter;
@@ -22,6 +24,7 @@ public class MainPresenter extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
+        Application.setUserAgentStylesheet(new PrimerLight().getUserAgentStylesheet());
         dayListPresenter = new DayListPresenter(this);
 
         for (int i = 0; i < 12; i++) {
@@ -30,6 +33,7 @@ public class MainPresenter extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(Launcher.class.getResource("main.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        scene.getStylesheets().add(Launcher.class.getResource("application.css").toExternalForm());
         view = fxmlLoader.getController();
 
         view.setDayList(dayListPresenter.getView());

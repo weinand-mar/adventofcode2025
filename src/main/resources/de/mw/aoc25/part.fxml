@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<HBox fx:id="root" alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.mw.aoc25.ui.part.PartView">
+<HBox fx:id="root" alignment="CENTER" spacing="5.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.mw.aoc25.ui.part.PartView">
    <children>
-      <VBox HBox.hgrow="ALWAYS">
+      <VBox spacing="5.0" HBox.hgrow="ALWAYS">
          <children>
-            <Button fx:id="loadButton" onAction="#loadClick" text="Load Input" />
+            <Button fx:id="loadButton" onAction="#loadClick" text="Load Input">
+               <styleClass>
+                  <String fx:value="accent" />
+                  <String fx:value="large" />
+               </styleClass></Button>
             <TextArea fx:id="inputText" VBox.vgrow="ALWAYS" />
          </children>
       </VBox>
-      <VBox HBox.hgrow="ALWAYS">
+      <VBox spacing="5.0" HBox.hgrow="ALWAYS">
          <children>
-            <Button fx:id="computeButton" onAction="#compute" text="Compute" />
+            <Button fx:id="computeButton" onAction="#compute" text="Compute">
+               <styleClass>
+                  <String fx:value="accent" />
+                  <String fx:value="large" />
+               </styleClass></Button>
             <TextArea fx:id="outputText" VBox.vgrow="ALWAYS" />
          </children>
       </VBox>
    </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
 </HBox>

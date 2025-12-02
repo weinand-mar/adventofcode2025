@@ -30,7 +30,8 @@ public class DayPresenter {
         part1 = new PartPresenter(day, InputType.PART1);
         part2 = new PartPresenter(day, InputType.PART2);
 
-        this.view.setPartViews(part1.getView(), part2.getView());
+        view.setPartViews(part1.getView(), part2.getView());
+        view.setTitle("Day " + day);
     }
 
     public Node getView() {

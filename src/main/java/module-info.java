@@ -4,7 +4,7 @@ module de.kvrlp.aoc25 {
     requires static lombok;
     requires jdk.jshell;
     requires javafx.graphics;
-    requires de.kvrlp.aoc25;
+    requires atlantafx.base;
 
 
     opens de.mw.aoc25 to javafx.fxml;

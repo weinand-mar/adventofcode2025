@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="root" alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.mw.aoc25.ui.part.PartView">
+   <children>
+      <VBox HBox.hgrow="ALWAYS">
+         <children>
+            <Button fx:id="loadButton" onAction="#loadClick" text="Load Input" />
+            <TextArea fx:id="inputText" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+      <VBox HBox.hgrow="ALWAYS">
+         <children>
+            <Button fx:id="computeButton" onAction="#compute" text="Compute" />
+            <TextArea fx:id="outputText" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

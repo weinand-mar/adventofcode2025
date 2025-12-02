@@ -1,4 +1,4 @@
-package de.mw.aoc25.day3.day2;
+package de.mw.aoc25.day3;
 
 import de.mw.aoc25.utils.InputType;
 import de.mw.aoc25.utils.InputUtils;

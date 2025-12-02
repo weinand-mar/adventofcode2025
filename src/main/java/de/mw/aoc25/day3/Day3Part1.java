@@ -1,4 +1,4 @@
-package de.mw.aoc25.day3.day2;
+package de.mw.aoc25.day3;
 
 import de.mw.aoc25.model.DayPart;
 import de.mw.aoc25.utils.InputType;
@@ -7,8 +7,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
 
 public class Day3Part1 implements DayPart {
     public static void main(String[] args) throws IOException {

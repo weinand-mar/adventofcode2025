@@ -25,11 +25,11 @@ public class Day8Part1 implements DayPart {
 
 
         Map<Integer, Set<Integer>> map = new HashMap<>();
-
+        Set<Set<Integer>> sets = new HashSet<>();
         int i = 0;
         for (Cost smallest : costList) {
             i++;
-            mapItteration(smallest, map);
+            mapItteration(smallest, map, sets);
             if (i == 1000) {
                 break;
             }
@@ -47,30 +47,15 @@ public class Day8Part1 implements DayPart {
         return Long.toString(sum.getAsLong());
     }
 
-    public static void mapItteration(Cost smallest, Map<Integer, Set<Integer>> map) {
-        if (!map.containsKey(smallest.i1())
-                && !map.containsKey(smallest.i2())) {
-            Set<Integer> set = new HashSet<>();
-            set.add(smallest.i1());
-            set.add(smallest.i2());
-            map.put(smallest.i1(), set);
-            map.put(smallest.i2(), set);
-        } else if (!map.containsKey(smallest.i2())) {
-            Set<Integer> set = map.get(smallest.i1());
-            set.add(smallest.i2());
-            map.put(smallest.i2(), set);
-        } else if (!map.containsKey(smallest.i1())) {
-            Set<Integer> set = map.get(smallest.i2());
-            set.add(smallest.i1());
-            map.put(smallest.i1(), set);
-        } else if (map.get(smallest.i1()) != map.get(smallest.i2())) {
-            Set<Integer> set1 = map.get(smallest.i1());
-            Set<Integer> set2 = map.get(smallest.i2());
-            set1.addAll(set2);
-            for (Integer x : set2) {
-                map.put(x, set1);
-            }
+    public static List<V3> readInput(String inputStr) {
+        List<V3> input = new ArrayList<>();
+        for (String line : inputStr.split("\n")) {
+            int[] vec = Arrays.stream(line.split(","))
+                    .mapToInt(Integer::parseInt)
+                    .toArray();
+            input.add(new V3(vec[0], vec[1], vec[2]));
         }
+        return input;
     }
 
     public static List<Cost> computeCost(List<V3> input) {
@@ -89,15 +74,32 @@ public class Day8Part1 implements DayPart {
         return costList;
     }
 
-    public static List<V3> readInput(String inputStr) {
-        List<V3> input = new ArrayList<>();
-        for (String line : inputStr.split("\n")) {
-            int[] vec = Arrays.stream(line.split(","))
-                    .mapToInt(Integer::parseInt)
-                    .toArray();
-            input.add(new V3(vec[0], vec[1], vec[2]));
+    public static void mapItteration(Cost smallest, Map<Integer, Set<Integer>> map, Set<Set<Integer>> sets) {
+        if (!map.containsKey(smallest.i1())
+                && !map.containsKey(smallest.i2())) {
+            Set<Integer> set = new HashSet<>();
+            set.add(smallest.i1());
+            set.add(smallest.i2());
+            map.put(smallest.i1(), set);
+            map.put(smallest.i2(), set);
+            sets.add(set);
+        } else if (!map.containsKey(smallest.i2())) {
+            Set<Integer> set = map.get(smallest.i1());
+            set.add(smallest.i2());
+            map.put(smallest.i2(), set);
+        } else if (!map.containsKey(smallest.i1())) {
+            Set<Integer> set = map.get(smallest.i2());
+            set.add(smallest.i1());
+            map.put(smallest.i1(), set);
+        } else if (map.get(smallest.i1()) != map.get(smallest.i2())) {
+            Set<Integer> set1 = map.get(smallest.i1());
+            Set<Integer> set2 = map.get(smallest.i2());
+            sets.remove(set2);
+            set1.addAll(set2);
+            for (Integer x : set2) {
+                map.put(x, set1);
+            }
         }
-        return input;
     }
 
     @Override

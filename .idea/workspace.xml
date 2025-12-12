@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48d82ceb-dd27-414a-b0f7-292e74a64d4c" name="Changes" comment="Day9 Part2 Killed me.&#10;&#10;Only works for my Input.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day10/example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day10/part1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day10/part2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/mw/aoc/utils/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/utils/PrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="36bDbve8VYmqKP3OycI1EnuumTE" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Day10Part1.executor": "Run",
+    "Application.Day10Part2.executor": "Debug",
+    "Application.Day9Part2.executor": "Run",
+    "Application.Launcher.executor": "Debug",
+    "Maven.AOC25 [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/weinand-m/source/repos/adventofcode2025/src/main/resources/de/mw/aoc/inputs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\weinand-m\source\repos\adventofcode2025\src\main\resources\de\mw\aoc\inputs" />
+      <recent name="C:\Users\weinand-m\source\repos\adventofcode2025\src\main\java\de\mw\aoc\day10" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Day10Part2">
+    <configuration name="Day10Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day10.Day10Part1" />
+      <module name="AOC25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mw.aoc.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day10Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day10.Day10Part2" />
+      <module name="AOC25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mw.aoc.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day9Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day9.Day9Part2" />
+      <module name="AOC25" />
+      <option name="VM_PARAMETERS" value="-Xms512m -Xmx16g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mw.aoc.day9.Day9Part2" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.Launcher" />
+      <module name="AOC25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mw.aoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Day10Part1" />
+      <item itemvalue="Application.Day10Part2" />
+      <item itemvalue="Application.Day9Part2" />
+      <item itemvalue="Application.Launcher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Day10Part2" />
+        <item itemvalue="Application.Day10Part1" />
+        <item itemvalue="Application.Day9Part2" />
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48d82ceb-dd27-414a-b0f7-292e74a64d4c" name="Changes" comment="" />
+      <created>1765266451547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765266451547</updated>
+      <workItem from="1765266453120" duration="9162000" />
+      <workItem from="1765278033939" duration="403000" />
+      <workItem from="1765278519406" duration="3440000" />
+      <workItem from="1765284340510" duration="1340000" />
+      <workItem from="1765289632663" duration="1875000" />
+      <workItem from="1765356092439" duration="22751000" />
+      <workItem from="1765434716971" duration="1000" />
+      <workItem from="1765435224724" duration="807000" />
+      <workItem from="1765527777880" duration="1199000" />
+      <workItem from="1765532710311" duration="8816000" />
+    </task>
+    <task id="LOCAL-00001" summary="Day9 Part2 Killed me.&#10;&#10;Only works for my Input.">
+      <option name="closed" value="true" />
+      <created>1765362584480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765362584481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day9 Part2 Killed me.&#10;&#10;Only works for my Input." />
+    <option name="LAST_COMMIT_MESSAGE" value="Day9 Part2 Killed me.&#10;&#10;Only works for my Input." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part2.java</url>
+          <line>158</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part2.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part2.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="curItem" language="JAVA" />
+        <watch expression="right.get()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

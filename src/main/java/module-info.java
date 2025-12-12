@@ -5,6 +5,9 @@ module de.mw.aoc {
     requires jdk.jshell;
     requires javafx.graphics;
     requires atlantafx.base;
+    requires javatuples;
+    requires java.desktop;
+    requires javafx.swing;
 
     opens de.mw.aoc to javafx.fxml;
     exports de.mw.aoc;

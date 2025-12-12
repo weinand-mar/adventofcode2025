@@ -13,28 +13,39 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.12.1</junit.version>
         <lombok.version>1.18.42</lombok.version>
+        <javafx.platform>17.0.14</javafx.platform>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>${javafx.platform}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>17.0.14</version>
+            <version>${javafx.platform}</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>17.0.14</version>
+            <version>${javafx.platform}</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
-            <version>17.0.14</version>
+            <version>${javafx.platform}</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
-            <version>17.0.14</version>
+            <version>${javafx.platform}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.javatuples</groupId>
+            <artifactId>javatuples</artifactId>
+            <version>1.2</version>
         </dependency>
 
         <dependency>

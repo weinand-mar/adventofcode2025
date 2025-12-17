@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,6 +18,19 @@ public class InputUtils {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static List<String> readDayInputAsStringLines(int dayIndex, InputType inputType) {
+        List<String> result = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(Launcher.class.getResourceAsStream("inputs/day" + dayIndex + "/" + inputType.toString().toLowerCase())))) {
+            String line = null;
+            while((line = br.readLine()) != null) {
+                result.add(line);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
     }
 
     public static List<String> stringLineToList(String input) {

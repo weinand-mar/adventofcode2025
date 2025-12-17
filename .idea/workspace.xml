@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d82ceb-dd27-414a-b0f7-292e74a64d4c" name="Changes" comment="Day9 Part2 Killed me.&#10;&#10;Only works for my Input.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day10/Day10Part2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day10/example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day10/part1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day10/part2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/mw/aoc/utils/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/utils/PrintUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day11/Day11Part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day11/Day11Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day12/Day12Part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/day12/Day12Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day11/example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day11/part1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day11/part2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day12/example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day12/part1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/de/mw/aoc/inputs/day12/part2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/mw/aoc/utils/InputUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mw/aoc/utils/InputUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -40,6 +43,9 @@
   "keyToString": {
     "Application.Day10Part1.executor": "Run",
     "Application.Day10Part2.executor": "Debug",
+    "Application.Day11Part1.executor": "Run",
+    "Application.Day11Part2.executor": "Run",
+    "Application.Day12Part1.executor": "Debug",
     "Application.Day9Part2.executor": "Run",
     "Application.Launcher.executor": "Debug",
     "Maven.AOC25 [install].executor": "Run",
@@ -50,7 +56,7 @@
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/weinand-m/source/repos/adventofcode2025/src/main/resources/de/mw/aoc/inputs",
+    "last_opened_file_path": "C:/Users/weinand-m/source/repos/adventofcode2025/src/main/java/de/mw/aoc/day12",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +67,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\weinand-m\source\repos\adventofcode2025\src\main\java\de\mw\aoc\day12" />
       <recent name="C:\Users\weinand-m\source\repos\adventofcode2025\src\main\resources\de\mw\aoc\inputs" />
+      <recent name="C:\Users\weinand-m\source\repos\adventofcode2025\src\main\java\de\mw\aoc\day11" />
       <recent name="C:\Users\weinand-m\source\repos\adventofcode2025\src\main\java\de\mw\aoc\day10" />
     </key>
   </component>
@@ -70,7 +78,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Day10Part2">
+  <component name="RunManager" selected="Application.Day12Part1">
     <configuration name="Day10Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day10.Day10Part1" />
       <module name="AOC25" />
@@ -97,13 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day9Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day9.Day9Part2" />
+    <configuration name="Day11Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day11.Day11Part1" />
       <module name="AOC25" />
-      <option name="VM_PARAMETERS" value="-Xms512m -Xmx16g" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.mw.aoc.day9.Day9Part2" />
+          <option name="PATTERN" value="de.mw.aoc.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.Launcher" />
+    <configuration name="Day11Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day11.Day11Part2" />
       <module name="AOC25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.mw.aoc.*" />
+          <option name="PATTERN" value="de.mw.aoc.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day12Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mw.aoc.day12.Day12Part1" />
+      <module name="AOC25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mw.aoc.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,17 +145,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Day12Part1" />
+      <item itemvalue="Application.Day11Part1" />
+      <item itemvalue="Application.Day11Part2" />
       <item itemvalue="Application.Day10Part1" />
       <item itemvalue="Application.Day10Part2" />
-      <item itemvalue="Application.Day9Part2" />
-      <item itemvalue="Application.Launcher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day12Part1" />
+        <item itemvalue="Application.Day11Part2" />
+        <item itemvalue="Application.Day11Part1" />
         <item itemvalue="Application.Day10Part2" />
         <item itemvalue="Application.Day10Part1" />
-        <item itemvalue="Application.Day9Part2" />
-        <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +186,9 @@
       <workItem from="1765435224724" duration="807000" />
       <workItem from="1765527777880" duration="1199000" />
       <workItem from="1765532710311" duration="8816000" />
+      <workItem from="1765783415419" duration="18591000" />
+      <workItem from="1765808067391" duration="6319000" />
+      <workItem from="1765866961624" duration="15922000" />
     </task>
     <task id="LOCAL-00001" summary="Day9 Part2 Killed me.&#10;&#10;Only works for my Input.">
       <option name="closed" value="true" />
@@ -209,13 +234,22 @@
           <line>39</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day11/Day11Part1.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day11/Day11Part1.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mw/aoc/day12/Day12Part1.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="curItem" language="JAVA" />
-        <watch expression="right.get()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

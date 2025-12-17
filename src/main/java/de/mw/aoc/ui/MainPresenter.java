@@ -1,6 +1,9 @@
 package de.mw.aoc.ui;
 
-import atlantafx.base.theme.PrimerLight;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import de.mw.aoc.Launcher;
 import de.mw.aoc.ui.day.DayPresenter;
 import de.mw.aoc.ui.daylist.DayListPresenter;
@@ -10,12 +13,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import lombok.Getter;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 @Getter
 public class MainPresenter extends Application {
+
     private MainView view;
 
     private DayListPresenter dayListPresenter;
@@ -23,7 +23,6 @@ public class MainPresenter extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Application.setUserAgentStylesheet(new PrimerLight().getUserAgentStylesheet());
         dayListPresenter = new DayListPresenter(this);
 
         for (int i = 0; i < 12; i++) {

@@ -1,7 +1,5 @@
 package de.mw.aoc.utils;
 
-import java.util.List;
-
 public class PrintUtils {
 
     public static String charMatrixToString(char[][] m) {
@@ -34,7 +32,7 @@ public class PrintUtils {
         StringBuilder builder = new StringBuilder();
         for (int y = 0; y < m.length; y++) {
             for (int x = 0; x < m[y].length; x++) {
-                builder.append(String.format("% 10.1f", m[y][x]));
+                builder.append(String.format("% 10.2f", m[y][x]));
             }
             builder.append("\n");
         }
